@@ -112,7 +112,12 @@
               type="button"
               @click="getEstimate"
             >
-              Get my estimate
+            <a
+          :href="whatsappLink"
+          target="_blank"
+          rel="noopener noreferrer"
+        >   Get my estimate</a>
+            
             </button>
           </div>
 
@@ -178,6 +183,13 @@ const estimate = computed(() => {
   ][
     projectSize.value
   ]
+})
+const contact = siteData.contact
+const whatsappLink = computed(() => {
+  const message = encodeURIComponent(
+    'Hi, I would like to discuss a construction project.'
+  )
+  return `https://wa.me/${contact.whatsapp}?text=${message}`
 })
 </script>
 
@@ -285,7 +297,10 @@ const estimate = computed(() => {
   background: var(--color-text);
   color: var(--color-background);
 }
-
+.option--active:hover {
+  background: var(--color-text);
+  color: var(--color-background);
+}
 .option--size {
   flex-direction: column;
   align-items: flex-start;
