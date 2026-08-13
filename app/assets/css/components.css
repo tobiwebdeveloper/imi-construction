@@ -186,14 +186,10 @@
 /* Primary */
 
 .btn-primary {
-  color: var(--color-white);
+  color: var(--color-black);
 
   background:
-    linear-gradient(
-      135deg,
-      var(--color-black),
-      #292929
-    );
+    var(--color-white);
 }
 
 .btn-primary:hover {

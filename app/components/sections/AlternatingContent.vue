@@ -1,6 +1,11 @@
 <template>
   <section id="about" class="section alternating-content">
     <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">{{ about.eyebrow }}</span>
+        <h2 class="section-title">{{ about.heading }}</h2>
+        <p class="section-description">{{ about.description }}</p>
+      </div>
       <div
         v-for="section in about.sections"
         :key="section.id"
@@ -41,6 +46,9 @@ const about = siteData.about
 <style scoped>
 .alternating-content {
   overflow: hidden;
+}
+.alternating-content .section-header {
+margin-bottom: var(--space-4xl);
 }
 
 .alternating-feature {

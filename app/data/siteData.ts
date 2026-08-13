@@ -8,15 +8,15 @@ export const siteData = {
   // ==========================================================
 
   siteInfo: {
-    businessName: 'IMI Construction',
-    businessType: 'Construction',
-    description:
-      'Professional construction solutions delivered with quality craftsmanship, precision, and attention to detail.',
-    phone: '(555) 123-4567',
-    email: 'info@imiconstruction.com',
-    whatsappNumber: '+1 (555) 123-4567',
-    location: 'Phoenix, Arizona',
-  },
+  businessName: 'IMI Construction',
+  businessType: 'Construction',
+  description:
+    'Construction, extensions, renovations and refurbishments delivered with quality workmanship and careful attention to detail.',
+  phone: '07525 103911',
+  email: 'info@imiconstruction.com',
+  whatsappNumber: '07525 103911',
+  location: 'Stevenage, Hertfordshire',
+},
 
   // ==========================================================
   // MEDIA
@@ -67,37 +67,37 @@ export const siteData = {
   // ==========================================================
 
   hero: {
-    eyebrow: 'IMI Construction',
+  eyebrow: 'Construction & Building Services',
 
-    heading: 'Built with purpose.',
+  heading: 'Construction built around your project.',
 
-    description:
-      'Professional construction delivered with precision, quality, and attention to every detail.',
+  description:
+    'Extensions, renovations, refurbishments and building work delivered with quality workmanship, clear communication, and attention to detail.',
 
-    primaryCTA: {
-      label: 'Get an estimate',
-      href: '#estimate',
-    },
-
-    secondaryCTA: {
-      label: 'View projects',
-      href: '#projects',
-    },
-
-    image: 'img1',
+  primaryCTA: {
+    label: 'Get an estimate',
+    href: '#estimate',
   },
+
+  secondaryCTA: {
+    label: 'View projects',
+    href: '#projects',
+  },
+
+  image: 'img1',
+},
 
   // ==========================================================
   // MARQUEE
   // ==========================================================
 
   marquee: [
-    'Construction',
-    'Quality',
-    'Precision',
-    'Reliability',
-    'Craftsmanship',
-  ],
+  'Extensions',
+  'Renovations',
+  'Refurbishments',
+  'Building',
+  'Construction',
+],
 
   // ==========================================================
   // STATEMENT
@@ -106,10 +106,10 @@ export const siteData = {
   statement: {
     eyebrow: 'What we believe',
 
-    heading: 'Construction should be built to last.',
+    heading: 'Construction services for every stage of your project.',
 
     description:
-      'From the first conversation to the final detail, we approach every project with care, clarity, and a commitment to doing the work properly.',
+  'From home extensions and renovations to refurbishments and general building work, we deliver practical construction solutions with quality workmanship.',
   },
 
   // ==========================================================
@@ -117,67 +117,66 @@ export const siteData = {
   // ==========================================================
 
   services: {
-    eyebrow: 'What we do',
+  eyebrow: 'What we do',
 
-    heading: 'Built for the way you build.',
+  heading: 'Construction services built around your project.',
 
-    description:
-      'Reliable construction solutions delivered with precision, clear communication, and quality workmanship.',
+  description:
+    'From new construction and additions to renovations and repairs, we deliver quality workmanship with careful attention to detail.',
 
-    items: [
-      {
-        id: 'residential',
-        number: '01',
-        title: 'Residential Construction',
-        description:
-          'Thoughtful construction and renovation work designed around the people who use the space.',
-      },
+  items: [
+    {
+      id: 'new-construction',
+      number: '01',
+      title: 'New Construction',
+      description:
+        'Building new spaces from the ground up with careful planning, quality workmanship, and attention to detail.',
+    },
 
-      {
-        id: 'commercial',
-        number: '02',
-        title: 'Commercial Construction',
-        description:
-          'Reliable construction solutions for commercial spaces, delivered with precision and clear project management.',
-      },
+    {
+      id: 'renovation',
+      number: '02',
+      title: 'Renovation',
+      description:
+        'Transforming existing spaces through considered planning, quality workmanship, and a focus on the finished result.',
+    },
 
-      {
-        id: 'renovation',
-        number: '03',
-        title: 'Renovation',
-        description:
-          'Transforming existing spaces through considered planning, quality workmanship, and attention to detail.',
-      },
+    {
+      id: 'addition',
+      number: '03',
+      title: 'Extensions & Additions',
+      description:
+        'Creating additional space that works naturally with the existing property and the way you use it.',
+    },
 
-      {
-        id: 'contracting',
-        number: '04',
-        title: 'General Contracting',
-        description:
-          'End-to-end project coordination, keeping every moving part aligned from beginning to completion.',
-      },
-    ],
-  },
+    {
+      id: 'repair',
+      number: '04',
+      title: 'Building Repairs',
+      description:
+        'Reliable repair work to restore, improve, and maintain residential properties.',
+    },
+  ],
+},
 
   // ==========================================================
   // ABOUT / ALTERNATING CONTENT
   // ==========================================================
 
   about: {
-    eyebrow: 'About IMI',
-
-    heading: 'Built on experience.',
+    eyebrow: 'How we work',
+    heading: 'Good construction starts with getting the details right.',
 
     description:
       'IMI Construction combines experience, careful planning, and quality workmanship to deliver construction projects with confidence.',
 
     sections: [
-      {
+            {
         id: 'quality',
-        eyebrow: 'Quality first',
+        eyebrow: 'Quality workmanship',
         heading: 'Every detail matters.',
         description:
-          'Good construction is found in the details. Our approach combines experienced workmanship with careful planning to deliver results that stand up over time.',
+          'From the initial work through to the finishing details, we focus on doing the job properly and delivering work built to last.',
         image: 'img2',
         imagePosition: 'right',
       },
@@ -201,10 +200,10 @@ export const siteData = {
   projects: {
     eyebrow: 'Selected work',
 
-    heading: 'Projects worth looking at.',
+    heading: 'Recent construction projects.',
 
-    description:
-      'A selection of work demonstrating the standard we bring to every project.',
+   description:
+  'Explore a selection of extensions, renovations and refurbishment work completed to a high standard.',
 
    items: [
   {
@@ -245,10 +244,9 @@ export const siteData = {
   calculator: {
     eyebrow: 'Estimate',
 
-    heading: 'What could your project cost?',
-
+    heading: 'Get an initial construction estimate.',
     description:
-      'Tell us a little about your project to get an initial estimate.',
+  'Choose the type and approximate size of your project to get an indicative price range.',
 
      pricing: {
   'new-construction': {
