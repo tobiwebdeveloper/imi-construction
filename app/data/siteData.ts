@@ -429,8 +429,8 @@ export const siteData = {
   // ==========================================================
 
   contact: {
-    phone: '(555) 123-4567',
+    phone: '4407525103911',
     email: 'info@imiconstruction.com',
-    whatsapp: '+1 (555) 123-4567',
+    whatsapp: '4407525103911',
   },
 } as const

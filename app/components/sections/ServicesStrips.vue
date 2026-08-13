@@ -1,5 +1,5 @@
 <template>
-  <section class="section services-strip">
+  <section id="services" class="section services-strip">
     <div class="container">
 
       <div class="section-header">
@@ -8,7 +8,7 @@
         <p class="section-description">{{ services.description }}</p>
       </div>
 
-      <div class="services-list">
+      <a href="#estimate" class="services-list">
         <div
           v-for="item in services.items"
           :key="item.id"
@@ -21,9 +21,9 @@
             <p>{{ item.description }}</p>
           </div>
 
-          <span class="service-arrow">↗</span>
+          <a href="#estimate" class="service-arrow">↗</a>
         </div>
-      </div>
+      </a>
 
     </div>
   </section>

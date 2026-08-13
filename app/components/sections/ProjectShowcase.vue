@@ -6,7 +6,7 @@ const images = siteData.media.images
 </script>
 
 <template>
-  <section class="section projects">
+  <section id="projects" class="section projects">
     <div class="container">
 
       <div class="section-header">

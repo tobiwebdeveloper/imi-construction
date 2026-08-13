@@ -1,5 +1,5 @@
 <template>
-  <section class="section alternating-content">
+  <section id="about" class="section alternating-content">
     <div class="container">
       <div
         v-for="section in about.sections"
@@ -72,6 +72,7 @@ const about = siteData.about
   display: block;
   width: 100%;
   height: 100%;
+   border-radius: var(--radius-lg);
   object-fit: cover;
 }
 

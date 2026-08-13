@@ -1,5 +1,6 @@
 <template>
   <AppHeader />
+  <WhatsAppChat />
 
   <main>
     <slot />
@@ -10,4 +11,5 @@
 <script setup>
 import AppHeader from '~/components/app/AppHeader.vue';
 import AppFooter from '~/components/app/AppFooter.vue';
+import WhatsAppChat from '~/components/app/WhatsAppChat.vue';
 </script>

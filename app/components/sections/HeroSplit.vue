@@ -1,5 +1,5 @@
 <template>
-  <section class="section hero-split">
+  <section id="hero" class="section hero-split">
     <div class="container">
       <div class="hero-grid">
 
